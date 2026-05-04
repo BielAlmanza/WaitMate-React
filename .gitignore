@@ -1,0 +1,39 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React Native
+WaitMateRN/android/.gradle/
+WaitMateRN/android/app/build/
+WaitMateRN/ios/build/
+WaitMateRN/ios/Pods/
+WaitMateRN/.expo/
+WaitMateRN/dist/
+
+# Environment
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Build
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Metro cache
+WaitMateRN/.metro-health-check*
