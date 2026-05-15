@@ -1,8 +1,7 @@
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-// 10.0.2.2 es el alias de localhost en el emulador Android; cambiar por IP local para dispositivo físico
-const BASE_URL = 'http://10.0.2.2:3000/v1';
+const BASE_URL = 'http://192.168.0.14:3000/v1';
 
 const apiClient = axios.create({
   baseURL: BASE_URL,
